@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import styles from '../styles';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
-import { StartSteps, startSteps, TitleText, TypingText } from '../components';
+import { StartSteps, TitleText, TypingText } from '../components';
 import { startingFeatures } from '../constants';
 
 const GetStarted = () => (
@@ -42,7 +42,6 @@ const GetStarted = () => (
         </div>
       </motion.div>
     </motion.div>
-    Get Started Section
   </section>
 );
 
